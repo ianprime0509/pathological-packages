@@ -1,0 +1,16 @@
+.{
+    .name = "lazy_dependency",
+    .version = "0.0.0",
+    .paths = .{
+        "src",
+        "build.zig",
+        "build.zig.zon",
+    },
+    .dependencies = .{
+        .single_module = .{
+            .url = "git+https://github.com/ianprime0509/pathological-packages?ref=single-module#6d92cd0729c08e1f8e35feb04d0f4d8995f758b3",
+            .hash = "1220acb351f3dcbdd8ff18eaa3b9e9edb0a341d11ea72e9c3035639c19216ffac918",
+            .lazy = true,
+        },
+    },
+}
