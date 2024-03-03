@@ -1,0 +1,9 @@
+.{
+    .name = "excluded-symlinks",
+    .version = "0.0.0",
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "main",
+    },
+}
