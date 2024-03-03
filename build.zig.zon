@@ -1,0 +1,13 @@
+.{
+    .name = "build_dependency_path",
+    .version = "0.0.0",
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+    },
+    .dependencies = .{
+        .helper = .{
+            .path = "./helper",
+        },
+    },
+}
