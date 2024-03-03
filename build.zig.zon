@@ -1,0 +1,15 @@
+.{
+    .name = "transitive_lazy_dependency",
+    .version = "0.0.0",
+    .paths = .{
+        "src",
+        "build.zig",
+        "build.zig.zon",
+    },
+    .dependencies = .{
+        .lazy_dependency = .{
+            .url = "git+https://github.com/ianprime0509/pathological-packages?ref=lazy-dependency#e1d9f46cfc6d71475ac9fe77a85555a606712e0b",
+            .hash = "122017f21ed8b17de4b73a26012851ea9be9c60c8b8003dea6a9d0ddedf55a1008cc",
+        },
+    },
+}
