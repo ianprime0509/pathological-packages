@@ -1,0 +1,9 @@
+.{
+    .name = .illegal_file_name,
+    .version = "0.0.0",
+    .minimum_zig_version = "0.14.0",
+    .fingerprint = 0xa91a56ff74cc4d26,
+    .paths = .{
+        "build.zig",
+    },
+}
